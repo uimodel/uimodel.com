@@ -1,11 +1,24 @@
+<!--
+ * @Author: HuangYuXin
+ * @Date: 2024-11-01 16:46:50
+ * @LastEditTime: 2024-11-01 16:54:35
+ * @Description: 
+ * 
+-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <h1>Home</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="iosDown()"></button>
+    <script>
+      function iosDown() {
+        window.location.href =
+          "itms-services:///?action=download-manifest&url=https://uimodel.github.io/funing.plist";
+      }
+    </script>
+  </body>
 </html>
